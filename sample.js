@@ -60,18 +60,47 @@ async function main() {
   // Insert one book that has a tags field containing
   // an array of at least 3 strings.
 
+  await books.insertOne({
+    title: "The Hobbit",
+    tags: ["fantasy", "adventure", "classic"]
+  });
+
   // ----------------------------------------------------------
   // TODO 3 - insertMany
   // ----------------------------------------------------------
   // Insert at least 5 books in a single call using insertMany.
   // Include a mix: some with a publisher object, some with tags, some with both.
 
+  await books.insertMany([
+    {
+      title: "Station Eleven",
+      publisher: { name: "Knopf Canada", country: "Canada" },
+      tags: ["dystopian", "literary fiction"]
+    },
+    {
+      title: "The Great Gatsby",
+      publisher: { name: "Charles Scribner's Sons", country: "USA" }
+    },
+    {
+      title: "Harry Potter and the Sorcerer's Stone",
+      publisher: { name: "Bloomsbury", country: "United Kingdom" },
+      tags: ["fantasy", "magic"]
+    },
+    {
+      title: "Jojos Bizzarre Adventure",
+      tags: ["manga", "adventure"]
+    },
+    {
+      title: "The Requiem",
+      publisher: { name: "Anna Akhmatova", country: "Russia" }
+    }
+  ]);
+
   // ----------------------------------------------------------
   // TODO 4 - find all documents
   // ----------------------------------------------------------
   // Retrieve every document in the collection and log each title.
   // Hint: find() returns a cursor - call .toArray() to get an array.
-
   // ----------------------------------------------------------
   // TODO 5 - findOne with dot notation
   // ----------------------------------------------------------
@@ -79,13 +108,11 @@ async function main() {
   // Dot notation lets you filter on a field inside an embedded object:
   //   { "publisher.country": "France" }
   // Log the title of the result.
-
   // ----------------------------------------------------------
   // TODO 6 - find with a filter
   // ----------------------------------------------------------
   // Find all books whose publisher.country is "France".
   // Log how many there are and list their titles.
-
   // ----------------------------------------------------------
   // TODO 7 - find with $exists
   // ----------------------------------------------------------
