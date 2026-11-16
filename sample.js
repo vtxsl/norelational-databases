@@ -46,6 +46,14 @@ async function main() {
   // Do the same here. Insert one book that has a publisher field
   // containing an embedded object with at least a name and a country.
 
+  await books.insertOne({
+    title: "The Stranger",
+    publisher: {
+      name: "Albert Camus",
+      country: "Algeria"
+    }
+  });
+
   // ----------------------------------------------------------
   // TODO 2 - insertOne with an array
   // ----------------------------------------------------------
