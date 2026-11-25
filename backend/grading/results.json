@@ -1,12 +1,12 @@
 {
   "config": {
     "argv": [
-      "C:\\Users\\$CM7100-M9DP4O11CIGV\\.nvm\\versions\\node\\v24.16.0\\bin\\node.exe",
-      "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\node_modules\\@playwright\\test\\cli.js",
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\NonRelationalDatabase\\norelational-databases\\backend\\node_modules\\@playwright\\test\\cli.js",
       "test"
     ],
-    "configFile": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\playwright.config.js",
-    "rootDir": "C:/Users/$CM7100-M9DP4O11CIGV/OneDrive - EPITA/Documents/EPITA-WORK/PROJECTS/NonRelationalDatabases/repos/lab-01/backend/tests",
+    "configFile": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\playwright.config.js",
+    "rootDir": "D:/NonRelationalDatabase/norelational-databases/backend/tests",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": false,
@@ -22,7 +22,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Users/$CM7100-M9DP4O11CIGV/OneDrive - EPITA/Documents/EPITA-WORK/PROJECTS/NonRelationalDatabases/repos/lab-01/backend/test-results",
+        "outputDir": "D:/NonRelationalDatabase/norelational-databases/backend/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -30,7 +30,7 @@
         },
         "id": "api",
         "name": "api",
-        "testDir": "C:/Users/$CM7100-M9DP4O11CIGV/OneDrive - EPITA/Documents/EPITA-WORK/PROJECTS/NonRelationalDatabases/repos/lab-01/backend/tests",
+        "testDir": "D:/NonRelationalDatabase/norelational-databases/backend/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -42,15 +42,15 @@
       {
         "grep": {},
         "grepInvert": null,
-        "outputDir": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\test-results",
+        "outputDir": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
           "actualWorkers": 1
         },
         "name": "api",
-        "testDir": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests",
-        "snapshotDir": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests",
+        "testDir": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests",
+        "snapshotDir": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests",
         "testIgnore": [],
         "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
         "timeout": 30000,
@@ -91,7 +91,7 @@
     "updateSnapshots": "default",
     "updateSourceMethod": "patch",
     "version": "1.65.0",
-    "workers": 7,
+    "workers": 6,
     "webServer": {
       "command": "node server.js",
       "url": "http://localhost:3000/users",
@@ -128,7 +128,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 17,
                         "column": 15
                       }
@@ -142,17 +142,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 43,
+                      "duration": 45,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:50.728Z",
+                      "startTime": "2026-11-25T09:47:15.112Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 17,
                             "column": 15
                           }
@@ -180,7 +180,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 17,
                         "column": 15
                       }
@@ -194,17 +194,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 21,
+                      "duration": 14,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:50.822Z",
+                      "startTime": "2026-11-25T09:47:15.201Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 17,
                             "column": 15
                           }
@@ -232,7 +232,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 17,
                         "column": 15
                       }
@@ -246,17 +246,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 30,
+                      "duration": 37,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:50.857Z",
+                      "startTime": "2026-11-25T09:47:15.226Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 17,
                             "column": 15
                           }
@@ -284,7 +284,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 17,
                         "column": 15
                       }
@@ -298,17 +298,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15,
+                      "duration": 18,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:50.899Z",
+                      "startTime": "2026-11-25T09:47:15.274Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 17,
                             "column": 15
                           }
@@ -336,7 +336,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 17,
                         "column": 15
                       }
@@ -350,17 +350,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 12,
+                      "duration": 9,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:50.927Z",
+                      "startTime": "2026-11-25T09:47:15.304Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 17,
                             "column": 15
                           }
@@ -388,7 +388,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 17,
                         "column": 15
                       }
@@ -402,17 +402,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15,
+                      "duration": 23,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:50.954Z",
+                      "startTime": "2026-11-25T09:47:15.324Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 17,
                             "column": 15
                           }
@@ -440,7 +440,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 17,
                         "column": 15
                       }
@@ -454,17 +454,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 19,
+                      "duration": 8,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:50.983Z",
+                      "startTime": "2026-11-25T09:47:15.357Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 17,
                             "column": 15
                           }
@@ -492,7 +492,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 17,
                         "column": 15
                       }
@@ -506,17 +506,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 12,
+                      "duration": 11,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.014Z",
+                      "startTime": "2026-11-25T09:47:15.375Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 17,
                             "column": 15
                           }
@@ -544,7 +544,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 17,
                         "column": 15
                       }
@@ -558,17 +558,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11,
+                      "duration": 9,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.037Z",
+                      "startTime": "2026-11-25T09:47:15.398Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 17,
                             "column": 15
                           }
@@ -596,7 +596,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 17,
                         "column": 15
                       }
@@ -610,17 +610,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11,
+                      "duration": 8,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.060Z",
+                      "startTime": "2026-11-25T09:47:15.428Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 17,
                             "column": 15
                           }
@@ -656,7 +656,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 102,
                         "column": 15
                       }
@@ -670,17 +670,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 23,
+                      "duration": 20,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.090Z",
+                      "startTime": "2026-11-25T09:47:15.446Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 102,
                             "column": 15
                           }
@@ -708,7 +708,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 102,
                         "column": 15
                       }
@@ -722,17 +722,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 19,
+                      "duration": 15,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.121Z",
+                      "startTime": "2026-11-25T09:47:15.476Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 102,
                             "column": 15
                           }
@@ -760,7 +760,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 102,
                         "column": 15
                       }
@@ -774,17 +774,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 29,
+                      "duration": 19,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.150Z",
+                      "startTime": "2026-11-25T09:47:15.503Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 102,
                             "column": 15
                           }
@@ -812,7 +812,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 102,
                         "column": 15
                       }
@@ -826,17 +826,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15,
+                      "duration": 11,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.191Z",
+                      "startTime": "2026-11-25T09:47:15.535Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 102,
                             "column": 15
                           }
@@ -864,7 +864,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 102,
                         "column": 15
                       }
@@ -883,12 +883,12 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.218Z",
+                      "startTime": "2026-11-25T09:47:15.570Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 102,
                             "column": 15
                           }
@@ -916,7 +916,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 102,
                         "column": 15
                       }
@@ -930,17 +930,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18,
+                      "duration": 12,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.247Z",
+                      "startTime": "2026-11-25T09:47:15.589Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 102,
                             "column": 15
                           }
@@ -968,7 +968,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 102,
                         "column": 15
                       }
@@ -982,17 +982,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 13,
+                      "duration": 9,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.276Z",
+                      "startTime": "2026-11-25T09:47:15.614Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 102,
                             "column": 15
                           }
@@ -1020,7 +1020,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 102,
                         "column": 15
                       }
@@ -1034,17 +1034,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 12,
+                      "duration": 21,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.305Z",
+                      "startTime": "2026-11-25T09:47:15.634Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 102,
                             "column": 15
                           }
@@ -1072,7 +1072,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 102,
                         "column": 15
                       }
@@ -1086,17 +1086,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 31,
+                      "duration": 7,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.331Z",
+                      "startTime": "2026-11-25T09:47:15.665Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 102,
                             "column": 15
                           }
@@ -1124,7 +1124,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 102,
                         "column": 15
                       }
@@ -1138,17 +1138,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 9,
+                      "duration": 8,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.376Z",
+                      "startTime": "2026-11-25T09:47:15.683Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 102,
                             "column": 15
                           }
@@ -1176,7 +1176,7 @@
                     {
                       "type": "serial",
                       "location": {
-                        "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                        "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                         "line": 102,
                         "column": 15
                       }
@@ -1190,17 +1190,17 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8,
+                      "duration": 7,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-11T11:53:51.394Z",
+                      "startTime": "2026-11-25T09:47:15.700Z",
                       "annotations": [
                         {
                           "type": "serial",
                           "location": {
-                            "file": "C:\\Users\\$CM7100-M9DP4O11CIGV\\OneDrive - EPITA\\Documents\\EPITA-WORK\\PROJECTS\\NonRelationalDatabases\\repos\\lab-01\\backend\\tests\\api.spec.js",
+                            "file": "D:\\NonRelationalDatabase\\norelational-databases\\backend\\tests\\api.spec.js",
                             "line": 102,
                             "column": 15
                           }
@@ -1224,8 +1224,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-11T11:53:49.233Z",
-    "duration": 2486.6369999999997,
+    "startTime": "2026-11-25T09:47:14.617Z",
+    "duration": 1134.496,
     "expected": 21,
     "skipped": 0,
     "unexpected": 0,
